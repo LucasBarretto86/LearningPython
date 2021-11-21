@@ -65,6 +65,10 @@ print(sorted_veggies)
 print(sorted_veggies.reverse())
 
 
+## length method
+print(len(sorted_veggies))
+
+
 ## Removing method
 colors = ["Red", "Gold", "Black"]
 print(colors)
