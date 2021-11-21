@@ -1,14 +1,23 @@
-
 #List
 names = ["Lucas", "Rafael", "Daniel"]
 print(names)
 
+## Accessing values
+print(names[2])
 
-## Pop method
-motorcycles = ["Honda", "Yamaha", "Suzuki"]
-last = motorcycles.pop()
-print(last)
-print(motorcycles)
+##  Modifying values
+print(names)
+
+names[2] = "Camila"
+print(names)
+
+
+## Avoiding no index due to list length
+numbers = [1, 2, 3, 4, 5]
+print(numbers[-1])
+
+numbers.remove(4)
+print(numbers[-1])
 
 
 ## Appending method
@@ -30,12 +39,19 @@ letters.insert(4, "E")
 print(letters)
 
 
-## Modifying values
-numbers = [10, 20, 40]
-print(numbers)
+## Pop method
+motorcycles = ["Honda", "Yamaha", "Suzuki"]
+last = motorcycles.pop()
+print(last)
+print(motorcycles)
 
-numbers[2] = 30
-print(numbers)
+
+## Sort method
+fruits = ["Mango", "Banana", "Orange","Grape"]
+print(fruits)
+
+fruits.sort()
+print(fruits)
 
 
 ## Removing method
@@ -45,9 +61,16 @@ print(colors)
 colors.remove("Black")
 print(colors)
 
+
 ## del statement
 names = ["Lucas", "Xiao", "Someone"]
 print(names)
 
 del names[2]
 print(names)
+
+name = "Lucas"
+print(name)
+
+del name
+print(name)
