@@ -46,12 +46,23 @@ print(last)
 print(motorcycles)
 
 
-## Sort method
+## Sort method - Permanently
 fruits = ["Mango", "Banana", "Orange","Grape"]
 print(fruits)
 
 fruits.sort()
 print(fruits)
+
+## Sort method - Temporarily
+veggies = ["Tomato", "Carrot", "Onion", "Broccoli"]
+sorted_veggies = sorted(veggies)
+
+print(veggies)
+print(sorted_veggies)
+
+
+## Reverse method
+print(sorted_veggies.reverse())
 
 
 ## Removing method
