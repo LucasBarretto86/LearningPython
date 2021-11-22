@@ -8,5 +8,3 @@ print(levels)
 
 # Accessing values
 print(statuses[1])
-
-
