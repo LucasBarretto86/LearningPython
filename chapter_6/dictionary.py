@@ -1,17 +1,16 @@
 # Dictionary
 # Kinda like Hash in Ruby or event kinda of struct
 
-alien_0 = {'color': 'green', 'points': 5 }
+alien_0 = {"color": "green", "points": 5}
 
-print(alien_0['color'])
-print(alien_0['points'])
+print(alien_0["color"])
+print(alien_0["points"])
 print(alien_0)
 
 
 # Assign new keys and values
-
-alien_0['x'] = 25
-alien_0['y'] = 0
+alien_0["x"] = 25
+alien_0["y"] = 0
 
 print(f"Alien y = {alien_0['y']}, Alien x = {alien_0['x']}")
 
@@ -19,13 +18,13 @@ print(f"Alien y = {alien_0['y']}, Alien x = {alien_0['x']}")
 # Removing dictionary value
 print(alien_0)
 
-del alien_0['color']
+del alien_0["color"]
 
 print(alien_0)
 
 
 # Method get()
-print(alien_0.get('color', "Value not found"))
+print(alien_0.get("color", "Value not found"))
 
 
 # Method items()
@@ -41,5 +40,25 @@ print(alien_0.keys())
 print(alien_0.values())
 
 
-# List inside a dictionary
-doll = {'height': 10, }
+# List of Dictionary
+players = [
+    {"health": 100},
+    {"health": 80},
+    {"health": 50},
+    {"health": 20},
+]
+
+for player in players:
+    print(player["health"])
+
+
+# List inside a Dictionary
+zoo = {"animals": ["Elephant", "Monkey", "Tiger", "Lion"]}
+
+print(zoo["animals"][2])
+
+
+# Dictionary inside a Dictionary
+player = {"skills": {"Stregth": 10, "Charisma": 0, "Dexterity": 5, "Lucky": -5}}
+
+print(player["skills"]["Lucky"])
