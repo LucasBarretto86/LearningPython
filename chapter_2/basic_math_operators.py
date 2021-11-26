@@ -8,7 +8,7 @@ print(2 + 2)
 print("2 / 2 = 1")
 print(2 / 2)
 
-## REST FROM A DIVISION
+## MODULE
 print("5 % 4 = 1")
 print(5 % 4)
 
