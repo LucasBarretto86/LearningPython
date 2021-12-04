@@ -2,7 +2,6 @@
 def say_hello():
     print("Hello!")
 
-
 say_hello()
 
 
@@ -63,7 +62,6 @@ print(set_user_name("Jorge", "", "Jor"))
 
 # Function with list as paramenter
 def say_hellos(names):
-
     for name in names:
         print(f"Hello, {name}")
 
@@ -108,6 +106,7 @@ def titlelize(surnames):
 
     return surnames
 
+
 # No copying
 surnames = ["silva", "olveira", "lopes", "souza"]
 print(titlelize(surnames))
@@ -124,6 +123,7 @@ def display_cars(*cars):
     for car in cars:
         print(car)
 
+
 display_cars("Ferrari", "Audi", "Ford", "Toyota", "Honda")
 
 
@@ -133,5 +133,6 @@ def display_fruits(limit, *fruits):
     while counter < limit:
         print(fruits[counter])
         counter += 1
+
 
 display_fruits(3, "Banana", "Mango", "Apple", "Orange", "Grapes", "Lemon")
