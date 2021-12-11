@@ -45,7 +45,7 @@ print(full_name("Lucas", "Silva"))
 print(full_name("Lucas", "Silva", "Barretto e"))
 
 
-# Named parameters
+# Key parameters
 def set_user_name(first_name="", middle_name="", last_name=""):
     params = [first_name, middle_name, last_name]
 
@@ -136,3 +136,17 @@ def display_fruits(limit, *fruits):
 
 
 display_fruits(3, "Banana", "Mango", "Apple", "Orange", "Grapes", "Lemon")
+
+
+# Positional and Abritary key paramenters
+def display_months(month, **options):
+    print(options)
+    print(options[month])
+
+
+display_months("jul", jul=7, aug=8, sep=9)
+
+
+def greetings(name):
+    print(f"Hello {name}!")
+
