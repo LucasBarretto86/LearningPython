@@ -11,6 +11,7 @@ my_car = car.Car({"manifacture": "Ford", "horsepower": 500,"top_speed": 289}, "F
 print(my_car.specs())
 
 
+# Importing without redundancy
 my_dog = Dog("Schnauzer", "Didi", 5)
 print(my_dog.greetings())
 print(my_dog.make_noise())

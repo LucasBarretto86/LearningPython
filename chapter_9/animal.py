@@ -12,4 +12,5 @@ class Animal:
 
 	
 	def make_noise(self):
-		raise NotImplementendErro("No implementation for parent class")
+		raise NotImplementendError("No implementation for parent class")
+''
