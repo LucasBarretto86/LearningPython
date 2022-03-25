@@ -1,3 +1,6 @@
 # Learning Python
 
--[Learning Python](#learning-python)
+- [Learning Python](#learning-python)
+  - [Snippets](#snippets)
+
+## Snippets
