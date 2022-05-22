@@ -1,8 +1,8 @@
-# Tuples, lists with unmutable values
+# Tuples, lists with immutable values
 statuses = ("Pending", "Confirmed", "Processing", "Cancelled")
 print(statuses)
 
-# parenteses are optional
+# parentheses are optional
 levels = "EASY", "MEDIUM", "HARD", "HARDEST"
 print(levels)
 

@@ -59,6 +59,6 @@ print(zoo["animals"][2])
 
 
 # Dictionary inside a Dictionary
-player = {"skills": {"Stregth": 10, "Charisma": 0, "Dexterity": 5, "Lucky": -5}}
+player = {"skills": {"Strength": 10, "Charisma": 0, "Dexterity": 5, "Lucky": -5}}
 
 print(player["skills"]["Lucky"])

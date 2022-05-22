@@ -6,8 +6,8 @@ my_string = "Some sentence"
 print(my_string)
 
 ### Integer variable
-my_interger = 1
-print(my_interger)
+my_integer = 1
+print(my_integer)
 
 ### Float variable
 my_float = 1.2

@@ -10,7 +10,7 @@ def say_hello_to(someone):
     print(f"Hello, {someone}!")
 
 
-say_hello_to("XiaoJiao")
+say_hello_to("Someone")
 
 
 # Return simple value

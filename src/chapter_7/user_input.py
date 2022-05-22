@@ -13,7 +13,7 @@ print(prompt)
 answer = prompt[:1][0].lower()
 
 if(answer == "y"):
-    print("I knew it, we are awsome\n\n")
+    print("I knew it, we are awesome\n\n")
 elif(answer == "n"):
     print("Oh that isn't right\n\n")
 else:

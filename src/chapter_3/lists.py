@@ -78,7 +78,7 @@ print(colors)
 
 
 ## del statement
-names = ["Lucas", "Xiao", "Someone"]
+names = ["Lucas", "None", "Someone"]
 print(names)
 
 del names[2]

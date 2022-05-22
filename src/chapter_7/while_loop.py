@@ -10,7 +10,7 @@ while current_number <= 5:
 message = ""
 
 while message != "Yes, I do":
-    message = input("I love you XiaoJiao! Do you love me too?\n")
+    message = input("I love you Someone! Do you love me too?\n")
     print(message)
 
 

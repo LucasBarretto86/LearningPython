@@ -18,7 +18,7 @@ print(warning.lower())
 
 
 ## String interpolation
-name = "xiao jiao"
+name = "Name jiao"
 last_name = "liu"
 full_name = f"{last_name.upper()}, {name.title()}"
 print(full_name)
