@@ -28,11 +28,3 @@ print(MAX_CONNECTIONS)
 
 MAX_CONNECTIONS =  1
 print(MAX_CONNECTIONS)
-
-
-# Comments
-print("Comments")
-
-print("Will print")
-
-#print("Won't print because is commented") 

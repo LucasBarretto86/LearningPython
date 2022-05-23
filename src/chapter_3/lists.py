@@ -62,11 +62,17 @@ print(sorted_veggies)
 
 
 ## Reverse method
-print(sorted_veggies.reverse())
+veggies = ["Tomato", "Carrot", "Onion", "Broccoli"]
+print(veggies)
+
+veggies.reverse()
+print(veggies)
 
 
 ## length method
-print(len(sorted_veggies))
+veggies = ["Tomato", "Carrot", "Onion", "Broccoli"]
+
+print(len(veggies))
 
 
 ## Removing method

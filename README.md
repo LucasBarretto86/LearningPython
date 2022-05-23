@@ -3,13 +3,12 @@
 - [Learning Python](#learning-python)
   - [Hello World](#hello-world)
   - [Math operators](#math-operators)
-    - [Basic operations](#basic-operations)
-      - [Sum](#sum)
-      - [Subtraction](#subtraction)
-      - [Multiplication](#multiplication)
-      - [Division](#division)
-      - [Module](#module)
-      - [Power](#power)
+    - [Sum](#sum)
+    - [Subtraction](#subtraction)
+    - [Multiplication](#multiplication)
+    - [Division](#division)
+    - [Module](#module)
+    - [Power](#power)
     - [Equations](#equations)
     - [Long numbers](#long-numbers)
   - [Strings](#strings)
@@ -24,15 +23,16 @@
       - [Right side strip method](#right-side-strip-method)
       - [Left side strip method](#left-side-strip-method)
   - [Primitive types](#primitive-types)
-  - [Variables](#variables)
-    - [values assignments](#values-assignments)
-    - [Multiple value assignments](#multiple-value-assignments)
-  - [Constants](#constants)
+  - [Variables and Constants](#variables-and-constants)
+    - [Variables](#variables)
+      - [values assignments](#values-assignments)
+      - [Multiple value assignments](#multiple-value-assignments)
+    - [Constants](#constants)
   - [Comments](#comments)
   - [List](#list)
     - [Accessing values](#accessing-values)
     - [Modifying values](#modifying-values)
-    - [Avoiding no index due to list length](#avoiding-no-index-due-to-list-length)
+      - [Avoiding access or modify no index due to list length](#avoiding-access-or-modify-no-index-due-to-list-length)
     - [Appending method](#appending-method)
     - [Insert method](#insert-method)
     - [Pop method](#pop-method)
@@ -67,8 +67,8 @@
     - [Greater or Equal](#greater-or-equal)
     - [Lesser or Equal](#lesser-or-equal)
     - [If statements](#if-statements)
-      - [Ternary operator | if_test_false,if_test_true](#ternary-operator--if_test_falseif_test_true)
-      - [If else in line | [on_true] if [expression] else [on_false]](#if-else-in-line--on_true-if-expression-else-on_false)
+      - [Ternary operator](#ternary-operator)
+      - [If else in line](#if-else-in-line)
     - [if else block](#if-else-block)
     - [if else in chain](#if-else-in-chain)
     - [Compare operators](#compare-operators)
@@ -108,11 +108,16 @@
 
 ```py
 print("Hello Python World!")
+
+# Output
+# Hello Python World!
 ```
+
+- [Chapter 1](src/chapter_1/hello_world.py)
 
 ## Math operators
 
-### Basic operations
+- [Chapter 2 - Basic Math]("src/chapter_2/basic_math_operators.py")
 
 | Sym | Operation      |
 | :-- | :------------- |
@@ -123,7 +128,7 @@ print("Hello Python World!")
 |  %  | Module         |
 |  ^  | Power          |
 
-#### Sum
+### Sum
 
 ```py
 # 2 + 2 = 4
@@ -133,7 +138,7 @@ print(2 + 2)
 # 4
 ```
 
-#### Subtraction
+### Subtraction
 
 ```py
 # 2 - 2 = 0
@@ -143,7 +148,7 @@ print(2 - 2)
 # 0
 ```
 
-#### Multiplication
+### Multiplication
 
 ```py
 # 2 * 2 = 4
@@ -153,7 +158,7 @@ print(2 * 2)
 # 4
 ```
 
-#### Division
+### Division
 
 ```py
 # 2 / 2 = 1
@@ -163,7 +168,7 @@ print(2 / 2)
 # 1
 ```
 
-#### Module
+### Module
 
 ```py
 # 5 % 4 = 1
@@ -173,7 +178,7 @@ print(5 % 4)
 # 1
 ```
 
-#### Power
+### Power
 
 ```py
 # 3**2 = 9
@@ -202,6 +207,8 @@ print(14_000_000_000)
 
 ## Strings
 
+- [Chapter 2 - String](src/chapter_2/strings.py)
+
 ```py
 message = "Hello Python World!"
 print(message)
@@ -216,7 +223,6 @@ warning = "atTenTion pleAse"
 print(warning.title())
 
 # Output
-
 # Attention Please
 ```
 
@@ -226,7 +232,6 @@ print(warning.title())
 warning = "atTenTion pleAse"
 print(warning.upper())
 # Output
-
 # ATTENTION PLEASE
 ```
 
@@ -236,7 +241,6 @@ print(warning.upper())
 warning = "atTenTion pleAse"
 print(warning.lower())
 # Output
-
 # attention please
 ```
 
@@ -261,7 +265,6 @@ print(message)
 print("\tPython")
 
 # Output
-
 #    Python
 ```
 
@@ -271,7 +274,6 @@ print("\tPython")
 print("Language:\nPython\nC\nJavascript\n")
 
 # Output
-
 # Language:
 # Python
 # Javascript
@@ -284,7 +286,6 @@ string_with_extra_space = " python "
 print(string_with_extra_space.strip())
 
 # Output
-
 # python
 ```
 
@@ -295,7 +296,6 @@ string_with_extra_space = "    python    "
 print(string_with_extra_space.rstrip())
 
 # Output
-
 #    python
 ```
 
@@ -306,11 +306,12 @@ string_with_extra_space = "    python    "
 print(string_with_extra_space.lstrip())
 
 # Output
-
 # python
 ```
 
 ## Primitive types
+
+- [Chapter 2 - Types](src/chapter_2/types.py)
 
 | type     | Representation                |
 | :------- | :---------------------------- |
@@ -337,7 +338,6 @@ print(type(bool_variable))
 print(type(bytes_variable))
 
 # Output
-
 # <class 'str'>
 # <class 'int'>
 # <class 'float'>
@@ -349,9 +349,13 @@ print(type(bytes_variable))
 # <class 'int'>
 ```
 
-## Variables
+## Variables and Constants
 
-### values assignments
+- [Chapter 2 - Variable and Constants](src/chapter_2/variables_constants.py)
+
+### Variables
+
+#### values assignments
 
 ```py
 #String variable
@@ -367,13 +371,12 @@ my_float = 1.2
 print(my_float)
 
 # Output
-
 # Some sentence
 # 1
 # 1.2
 ```
 
-### Multiple value assignments
+#### Multiple value assignments
 
 ```py
 x, y, z = 1, 2, 3
@@ -383,13 +386,12 @@ print(y)
 print(z)
 
 # Output
-
 # 1
 # 2
 # 3
 ```
 
-## Constants
+### Constants
 
 Constants are not really constants in Py, so it's more like convention
 
@@ -401,7 +403,6 @@ MAX_CONNECTIONS =  1
 print(MAX_CONNECTIONS)
 
 # Output
-
 # 5000
 # 1
 ```
@@ -415,21 +416,21 @@ print("Will print")
 # print("Won't print because is commented")
 
 # Output
-
 # Comments
 # Will print
 ```
 
 ## List
 
-Basically lists are arrays on Py
+- [Chapter 3 - Lists](src/chapter_3/lists.py)
+
+Basically lists are arrays in Python
 
 ```py
 names = ["Lucas", "Rafael", "Daniel"]
 print(names)
 
 # Output
-
 # ['Lucas', 'Rafael', 'Daniel']
 ```
 
@@ -440,7 +441,6 @@ names = ["Lucas", "Rafael", "Daniel"]
 print(names[2])
 
 # Output
-
 # Daniel
 ```
 
@@ -453,11 +453,10 @@ names[2] = "Camila"
 print(names)
 
 # Output
-
-# names = ["Lucas", "Rafael", "Daniel"]
+# names = ['Lucas', 'Rafael', 'Daniel']
 ```
 
-### Avoiding no index due to list length
+#### Avoiding access or modify no index due to list length
 
 ```py
 numbers = [1, 2, 3, 4, 5]
@@ -467,7 +466,6 @@ numbers.remove(4)
 print(numbers[-1])
 
 # Output
-
 # 5
 # 5
 ```
@@ -482,7 +480,6 @@ animals.append("Monkey")
 print(animals)
 
 # Output
-
 # ['Dog', 'Cat', 'Frog']
 # ['Dog', 'Cat', 'Frog', 'Monkey']
 ```
@@ -500,7 +497,6 @@ letters.insert(4, "E")
 print(letters)
 
 # Output
-
 # ['A', 'C', 'D']
 # ['A', 'B', 'C', 'D']
 # ['A', 'B', 'C', 'D', 'E']
@@ -515,7 +511,6 @@ print(last)
 print(motorcycles)
 
 # Output
-
 # Suzuki
 # ['Honda', 'Yamaha']
 ```
@@ -530,7 +525,6 @@ fruits.sort()
 print(fruits)
 
 # Output
-
 # ['Mango', 'Banana', 'Orange', 'Grape']
 # ['Banana', 'Grape', 'Mango', 'Orange']
 ```
@@ -545,7 +539,6 @@ print(veggies)
 print(sorted_veggies)
 
 # Output
-
 # ['Tomato', 'Carrot', 'Onion', 'Broccoli']
 # ['Broccoli', 'Carrot', 'Onion', 'Tomato']
 ```
@@ -553,13 +546,26 @@ print(sorted_veggies)
 ### Reverse method
 
 ```py
-print(sorted_veggies.reverse())
+veggies = ["Tomato", "Carrot", "Onion", "Broccoli"]
+print(veggies)
+
+veggies.reverse()
+print(veggies)
+
+# Output
+# ['Tomato', 'Carrot', 'Onion', 'Broccoli']
+# ['Broccoli', 'Onion', 'Carrot', 'Tomato']
 ```
 
 ### length method
 
 ```py
-print(len(sorted_veggies))
+veggies = ["Tomato", "Carrot", "Onion", "Broccoli"]
+
+print(len(veggies))
+
+# Output
+# 4
 ```
 
 ### Removing method
@@ -570,6 +576,10 @@ print(colors)
 
 colors.remove("Black")
 print(colors)
+
+# Output
+# ['Red', 'Gold', 'Black']
+# ['Red', 'Gold']
 ```
 
 ### del statement
@@ -586,9 +596,22 @@ print(name)
 
 del name
 print(name)
+
+# Output
+# ['Lucas', 'None', 'Someone']
+# ['Lucas', 'None']
+# Lucas
+
+# Traceback (most recent call last):
+#  File "/home/barretto86/Projects/OthersProjects/LearningDocumentation/specifics/LearningPython/src/#chapter_3/lists.py", line 95, in <module>
+#    print(name)
 ```
 
+Note that that lest statement throw and error because it was attempting to remove a list item that was already removed
+
 ### Iterating through list
+
+- [Chapter 4 - More about lists](src/chapter_4/more_lists.py)
 
 #### Looping through list
 
@@ -597,6 +620,12 @@ animals = ["Dog", "Cat", "Bat", "Horse"]
 
 for animal in animals:
     print(animal)
+
+# Output
+# Dog
+# Cat
+# Bat
+# Horse
 ```
 
 #### Using range method
@@ -605,6 +634,11 @@ for animal in animals:
 for index in range(0, 4):
     print(animals[index])
 
+# Output
+# Dog
+# Cat
+# Bat
+# Horse
 ```
 
 ### list method to create a list using range method
@@ -613,24 +647,41 @@ for index in range(0, 4):
 numbers = list(range(1,10))
 print(numbers)
 
+# Output
+# [1, 2, 3, 4, 5, 6, 7, 8, 9]
 ```
 
 ### max method
 
 ```py
+numbers = list(range(1,10))
+
 print(max(numbers))
+
+# Output
+# 9
 ```
 
 ### min method
 
 ```py
+numbers = list(range(1,10))
+
 print(min(numbers))
+
+# Output
+# 1
 ```
 
 ### sum method
 
 ```py
+numbers = list(range(1,10))
+
 print(sum(numbers))
+
+# Output
+# 45
 ```
 
 ### create list of squares using append method and range method
@@ -641,6 +692,9 @@ squares = []
 for value in range(1, 11):
     squares.append(value**2)
 print(squares)
+
+# Output
+# [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
 ```
 
 ### create list of squares using for and range method
@@ -648,9 +702,14 @@ print(squares)
 ```py
 squares = [value**2 for value in range(1, 11)]
 print(squares)
+
+# Output
+# [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
 ```
 
 ## Slices
+
+- [Chapter 4 - Slices](src/chapter_4/slices.py)
 
 ### Slice from index X to length Y, [index:length]
 
@@ -697,6 +756,8 @@ Since it's copy from the value and not from reference isn't effected by changes 
 
 ## Tuples, lists with immutable values
 
+- [Chapter 4 - Tuples](src/chapter_4/tuples.py)
+
 ```py
 statuses = ("Pending", "Confirmed", "Processing", "Cancelled")
 print(statuses)
@@ -716,6 +777,8 @@ print(statuses[1])
 ```
 
 ## Conditional operators
+
+- [Chapter 5 - Conditional Operators](src/chapter_5/conditional_operators.py)
 
 ### Equal
 
@@ -757,14 +820,22 @@ print( 4 <= 4)
 
 ### If statements
 
-#### Ternary operator | [if_test_false,if_test_true](test)
+- [Chapter 5 - If statement](src/chapter_5/if_statement.py)
+
+#### Ternary operator
+
+Syntax:
+`[if_test_false,if_test_true](test)`
 
 ```py
 a, b, = 10, 20
 print( (b, a) [a < b] )
 ```
 
-#### If else in line | [on_true] if [expression] else [on_false]
+#### If else in line
+
+Syntax:
+`[on_true] if [expression] else [on_false]`
 
 ```py
 name = "Lucas"
@@ -828,6 +899,8 @@ else:
 ```
 
 ## Dictionary
+
+- [Chapter 6 - Dictionary](src/chapter_6/dictionary.py)
 
 Kinda like Hash in Ruby or event kinda of struct
 
@@ -914,6 +987,8 @@ print(player["skills"]["Lucky"])
 ```
 
 ## Handling user input
+
+- [Chapter 7 - User inputs](src/chapter_7/user_input.py)
 
 ### String input
 
@@ -1071,6 +1146,8 @@ print(animals)
 ```
 
 ### while to handle dictionary
+
+- [Chapter 7 - While Dictionary Input](src/chapter_7/while_dictionary_input_polling.py)
 
 ```py
 player = {"x": 0, "y": 0}
