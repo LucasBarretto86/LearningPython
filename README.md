@@ -108,9 +108,12 @@
 
 ```py
 print("Hello Python World!")
+```
 
-# Output
-# Hello Python World!
+**Output:**
+
+```shell
+Hello Python World!
 ```
 
 - [Chapter 1](src/chapter_1/hello_world.py)
@@ -134,8 +137,12 @@ print("Hello Python World!")
 # 2 + 2 = 4
 print(2 + 2)
 
-# Output
-# 4
+```
+
+**Output:**
+
+```shell
+4
 ```
 
 ### Subtraction
@@ -144,8 +151,12 @@ print(2 + 2)
 # 2 - 2 = 0
 print(2 - 2)
 
-# Output
-# 0
+```
+
+**Output:**
+
+```shell
+0
 ```
 
 ### Multiplication
@@ -154,8 +165,12 @@ print(2 - 2)
 # 2 * 2 = 4
 print(2 * 2)
 
-# Output
-# 4
+```
+
+**Output:**
+
+```shell
+4
 ```
 
 ### Division
@@ -164,8 +179,12 @@ print(2 * 2)
 # 2 / 2 = 1
 print(2 / 2)
 
-# Output
-# 1
+```
+
+**Output:**
+
+```shell
+ 1
 ```
 
 ### Module
@@ -174,8 +193,12 @@ print(2 / 2)
 # 5 % 4 = 1
 print(5 % 4)
 
-# Output
-# 1
+```
+
+**Output:**
+
+```shell
+1
 ```
 
 ### Power
@@ -184,8 +207,12 @@ print(5 % 4)
 # 3**2 = 9
 print(3**2)
 
-# Output
-# 9
+```
+
+**Output:**
+
+```shell
+9
 ```
 
 ### Equations
@@ -222,8 +249,12 @@ print(message)
 warning = "atTenTion pleAse"
 print(warning.title())
 
-# Output
-# Attention Please
+```
+
+**Output:**
+
+```shell
+Attention Please
 ```
 
 #### Uppercase
@@ -231,8 +262,12 @@ print(warning.title())
 ```py
 warning = "atTenTion pleAse"
 print(warning.upper())
-# Output
-# ATTENTION PLEASE
+```
+
+**Output:**
+
+```shell
+ATTENTION PLEASE
 ```
 
 #### Lowercase
@@ -240,8 +275,12 @@ print(warning.upper())
 ```py
 warning = "atTenTion pleAse"
 print(warning.lower())
-# Output
-# attention please
+```
+
+**Output:**
+
+```shell
+attention please
 ```
 
 ### String interpolation
@@ -254,9 +293,13 @@ message = f"I like your {full_name}"
 
 print(message)
 
-# Output 
+```
 
-# I like your First Name Surname
+**Output:**
+
+```shell
+
+I like your First Name Surname
 ```
 
 ### Adding tab to a string
@@ -264,8 +307,12 @@ print(message)
 ```py
 print("\tPython")
 
-# Output
-#    Python
+```
+
+**Output:**
+
+```shell
+    Python
 ```
 
 ### Adding line breaker to a string
@@ -273,10 +320,14 @@ print("\tPython")
 ```py
 print("Language:\nPython\nC\nJavascript\n")
 
-# Output
-# Language:
-# Python
-# Javascript
+```
+
+**Output:**
+
+```shell
+ Language:
+ Python
+ Javascript
 ```
 
 ### Strip method
@@ -285,8 +336,12 @@ print("Language:\nPython\nC\nJavascript\n")
 string_with_extra_space = " python "
 print(string_with_extra_space.strip())
 
-# Output
-# python
+```
+
+**Output:**
+
+```shell
+ python
 ```
 
 #### Right side strip method
@@ -295,8 +350,12 @@ print(string_with_extra_space.strip())
 string_with_extra_space = "    python    "
 print(string_with_extra_space.rstrip())
 
-# Output
-#    python
+```
+
+**Output:**
+
+```shell
+    python
 ```
 
 #### Left side strip method
@@ -305,8 +364,12 @@ print(string_with_extra_space.rstrip())
 string_with_extra_space = "    python    "
 print(string_with_extra_space.lstrip())
 
-# Output
-# python
+```
+
+**Output:**
+
+```shell
+ python
 ```
 
 ## Primitive types
@@ -337,16 +400,20 @@ print(type(dict_variable))
 print(type(bool_variable))
 print(type(bytes_variable))
 
-# Output
-# <class 'str'>
-# <class 'int'>
-# <class 'float'>
-# <class 'complex'>
-# <class 'list'>
-# <class 'range'>
-# <class 'dict'>
-# <class 'bool'>
-# <class 'int'>
+```
+
+**Output:**
+
+```shell
+ <class 'str'>
+ <class 'int'>
+ <class 'float'>
+ <class 'complex'>
+ <class 'list'>
+ <class 'range'>
+ <class 'dict'>
+ <class 'bool'>
+ <class 'int'>
 ```
 
 ## Variables and Constants
@@ -370,10 +437,14 @@ print(my_integer)
 my_float = 1.2
 print(my_float)
 
-# Output
-# Some sentence
-# 1
-# 1.2
+```
+
+**Output:**
+
+```shell
+ Some sentence
+ 1
+ 1.2
 ```
 
 #### Multiple value assignments
@@ -385,10 +456,14 @@ print(x)
 print(y)
 print(z)
 
-# Output
-# 1
-# 2
-# 3
+```
+
+**Output:**
+
+```shell
+ 1
+ 2
+ 3
 ```
 
 ### Constants
@@ -402,9 +477,13 @@ print(MAX_CONNECTIONS)
 MAX_CONNECTIONS =  1
 print(MAX_CONNECTIONS)
 
-# Output
-# 5000
-# 1
+```
+
+**Output:**
+
+```shell
+ 5000
+ 1
 ```
 
 ## Comments
@@ -415,9 +494,13 @@ print("Will print")
 
 # print("Won't print because is commented")
 
-# Output
-# Comments
-# Will print
+```
+
+**Output:**
+
+```shell
+ Comments
+ Will print
 ```
 
 ## List
@@ -430,8 +513,12 @@ Basically lists are arrays in Python
 names = ["Lucas", "Rafael", "Daniel"]
 print(names)
 
-# Output
-# ['Lucas', 'Rafael', 'Daniel']
+```
+
+**Output:**
+
+```shell
+ ['Lucas', 'Rafael', 'Daniel']
 ```
 
 ### Accessing values
@@ -440,8 +527,12 @@ print(names)
 names = ["Lucas", "Rafael", "Daniel"]
 print(names[2])
 
-# Output
-# Daniel
+```
+
+**Output:**
+
+```shell
+ Daniel
 ```
 
 ### Modifying values
@@ -452,8 +543,12 @@ print(names)
 names[2] = "Camila"
 print(names)
 
-# Output
-# names = ['Lucas', 'Rafael', 'Daniel']
+```
+
+**Output:**
+
+```shell
+ names = ['Lucas', 'Rafael', 'Daniel']
 ```
 
 #### Avoiding access or modify no index due to list length
@@ -465,9 +560,13 @@ print(numbers[-1])
 numbers.remove(4)
 print(numbers[-1])
 
-# Output
-# 5
-# 5
+```
+
+**Output:**
+
+```shell
+ 5
+ 5
 ```
 
 ### Appending method
@@ -479,9 +578,13 @@ print(animals)
 animals.append("Monkey")
 print(animals)
 
-# Output
-# ['Dog', 'Cat', 'Frog']
-# ['Dog', 'Cat', 'Frog', 'Monkey']
+```
+
+**Output:**
+
+```shell
+ ['Dog', 'Cat', 'Frog']
+ ['Dog', 'Cat', 'Frog', 'Monkey']
 ```
 
 ### Insert method
@@ -496,10 +599,14 @@ print(letters)
 letters.insert(4, "E")
 print(letters)
 
-# Output
-# ['A', 'C', 'D']
-# ['A', 'B', 'C', 'D']
-# ['A', 'B', 'C', 'D', 'E']
+```
+
+**Output:**
+
+```shell
+ ['A', 'C', 'D']
+ ['A', 'B', 'C', 'D']
+ ['A', 'B', 'C', 'D', 'E']
 ```
 
 ### Pop method
@@ -510,9 +617,13 @@ last = motorcycles.pop()
 print(last)
 print(motorcycles)
 
-# Output
-# Suzuki
-# ['Honda', 'Yamaha']
+```
+
+**Output:**
+
+```shell
+ Suzuki
+ ['Honda', 'Yamaha']
 ```
 
 ### Sort method - Permanently
@@ -524,9 +635,13 @@ print(fruits)
 fruits.sort()
 print(fruits)
 
-# Output
-# ['Mango', 'Banana', 'Orange', 'Grape']
-# ['Banana', 'Grape', 'Mango', 'Orange']
+```
+
+**Output:**
+
+```shell
+ ['Mango', 'Banana', 'Orange', 'Grape']
+ ['Banana', 'Grape', 'Mango', 'Orange']
 ```
 
 ### Sort method - Temporarily
@@ -538,9 +653,13 @@ sorted_veggies = sorted(veggies)
 print(veggies)
 print(sorted_veggies)
 
-# Output
-# ['Tomato', 'Carrot', 'Onion', 'Broccoli']
-# ['Broccoli', 'Carrot', 'Onion', 'Tomato']
+```
+
+**Output:**
+
+```shell
+ ['Tomato', 'Carrot', 'Onion', 'Broccoli']
+ ['Broccoli', 'Carrot', 'Onion', 'Tomato']
 ```
 
 ### Reverse method
@@ -552,9 +671,13 @@ print(veggies)
 veggies.reverse()
 print(veggies)
 
-# Output
-# ['Tomato', 'Carrot', 'Onion', 'Broccoli']
-# ['Broccoli', 'Onion', 'Carrot', 'Tomato']
+```
+
+**Output:**
+
+```shell
+ ['Tomato', 'Carrot', 'Onion', 'Broccoli']
+ ['Broccoli', 'Onion', 'Carrot', 'Tomato']
 ```
 
 ### length method
@@ -564,8 +687,12 @@ veggies = ["Tomato", "Carrot", "Onion", "Broccoli"]
 
 print(len(veggies))
 
-# Output
-# 4
+```
+
+**Output:**
+
+```shell
+ 4
 ```
 
 ### Removing method
@@ -577,9 +704,13 @@ print(colors)
 colors.remove("Black")
 print(colors)
 
-# Output
-# ['Red', 'Gold', 'Black']
-# ['Red', 'Gold']
+```
+
+**Output:**
+
+```shell
+ ['Red', 'Gold', 'Black']
+ ['Red', 'Gold']
 ```
 
 ### del statement
@@ -597,14 +728,18 @@ print(name)
 del name
 print(name)
 
-# Output
-# ['Lucas', 'None', 'Someone']
-# ['Lucas', 'None']
-# Lucas
+```
 
-# Traceback (most recent call last):
-#  File "/home/barretto86/Projects/OthersProjects/LearningDocumentation/specifics/LearningPython/src/#chapter_3/lists.py", line 95, in <module>
-#    print(name)
+**Output:**
+
+```shell
+ ['Lucas', 'None', 'Someone']
+ ['Lucas', 'None']
+ Lucas
+
+ Traceback (most recent call last):
+  File "/home/barretto86/Projects/OthersProjects/LearningDocumentation/specifics/LearningPython/src/#chapter_3/lists.py", line 95, in <module>
+    print(name)
 ```
 
 Note that that lest statement throw and error because it was attempting to remove a list item that was already removed
@@ -621,11 +756,15 @@ animals = ["Dog", "Cat", "Bat", "Horse"]
 for animal in animals:
     print(animal)
 
-# Output
-# Dog
-# Cat
-# Bat
-# Horse
+```
+
+**Output:**
+
+```shell
+ Dog
+ Cat
+ Bat
+ Horse
 ```
 
 #### Using range method
@@ -634,11 +773,15 @@ for animal in animals:
 for index in range(0, 4):
     print(animals[index])
 
-# Output
-# Dog
-# Cat
-# Bat
-# Horse
+```
+
+**Output:**
+
+```shell
+ Dog
+ Cat
+ Bat
+ Horse
 ```
 
 ### list method to create a list using range method
@@ -647,8 +790,12 @@ for index in range(0, 4):
 numbers = list(range(1,10))
 print(numbers)
 
-# Output
-# [1, 2, 3, 4, 5, 6, 7, 8, 9]
+```
+
+**Output:**
+
+```shell
+ [1, 2, 3, 4, 5, 6, 7, 8, 9]
 ```
 
 ### max method
@@ -658,8 +805,12 @@ numbers = list(range(1,10))
 
 print(max(numbers))
 
-# Output
-# 9
+```
+
+**Output:**
+
+```shell
+ 9
 ```
 
 ### min method
@@ -669,8 +820,12 @@ numbers = list(range(1,10))
 
 print(min(numbers))
 
-# Output
-# 1
+```
+
+**Output:**
+
+```shell
+ 1
 ```
 
 ### sum method
@@ -680,8 +835,12 @@ numbers = list(range(1,10))
 
 print(sum(numbers))
 
-# Output
-# 45
+```
+
+**Output:**
+
+```shell
+ 45
 ```
 
 ### create list of squares using append method and range method
@@ -693,8 +852,12 @@ for value in range(1, 11):
     squares.append(value**2)
 print(squares)
 
-# Output
-# [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+```
+
+**Output:**
+
+```shell
+ [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
 ```
 
 ### create list of squares using for and range method
@@ -703,8 +866,12 @@ print(squares)
 squares = [value**2 for value in range(1, 11)]
 print(squares)
 
-# Output
-# [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+```
+
+**Output:**
+
+```shell
+ [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
 ```
 
 ## Slices
