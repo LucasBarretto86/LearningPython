@@ -112,7 +112,7 @@ print("Hello Python World!")
 
 **Output:**
 
-```shell
+```mono
 Hello Python World!
 ```
 
@@ -141,7 +141,7 @@ print(2 + 2)
 
 **Output:**
 
-```shell
+```mono
 4
 ```
 
@@ -155,7 +155,7 @@ print(2 - 2)
 
 **Output:**
 
-```shell
+```mono
 0
 ```
 
@@ -169,7 +169,7 @@ print(2 * 2)
 
 **Output:**
 
-```shell
+```mono
 4
 ```
 
@@ -183,7 +183,7 @@ print(2 / 2)
 
 **Output:**
 
-```shell
+```mono
  1
 ```
 
@@ -197,7 +197,7 @@ print(5 % 4)
 
 **Output:**
 
-```shell
+```mono
 1
 ```
 
@@ -211,7 +211,7 @@ print(3**2)
 
 **Output:**
 
-```shell
+```mono
 9
 ```
 
@@ -253,7 +253,7 @@ print(warning.title())
 
 **Output:**
 
-```shell
+```mono
 Attention Please
 ```
 
@@ -266,7 +266,7 @@ print(warning.upper())
 
 **Output:**
 
-```shell
+```mono
 ATTENTION PLEASE
 ```
 
@@ -279,7 +279,7 @@ print(warning.lower())
 
 **Output:**
 
-```shell
+```mono
 attention please
 ```
 
@@ -297,7 +297,7 @@ print(message)
 
 **Output:**
 
-```shell
+```mono
 
 I like your First Name Surname
 ```
@@ -311,7 +311,7 @@ print("\tPython")
 
 **Output:**
 
-```shell
+```mono
     Python
 ```
 
@@ -324,7 +324,7 @@ print("Language:\nPython\nC\nJavascript\n")
 
 **Output:**
 
-```shell
+```mono
  Language:
  Python
  Javascript
@@ -340,7 +340,7 @@ print(string_with_extra_space.strip())
 
 **Output:**
 
-```shell
+```mono
  python
 ```
 
@@ -354,7 +354,7 @@ print(string_with_extra_space.rstrip())
 
 **Output:**
 
-```shell
+```mono
     python
 ```
 
@@ -368,7 +368,7 @@ print(string_with_extra_space.lstrip())
 
 **Output:**
 
-```shell
+```mono
  python
 ```
 
@@ -404,7 +404,7 @@ print(type(bytes_variable))
 
 **Output:**
 
-```shell
+```mono
  <class 'str'>
  <class 'int'>
  <class 'float'>
@@ -441,7 +441,7 @@ print(my_float)
 
 **Output:**
 
-```shell
+```mono
  Some sentence
  1
  1.2
@@ -460,7 +460,7 @@ print(z)
 
 **Output:**
 
-```shell
+```mono
  1
  2
  3
@@ -481,7 +481,7 @@ print(MAX_CONNECTIONS)
 
 **Output:**
 
-```shell
+```mono
  5000
  1
 ```
@@ -498,7 +498,7 @@ print("Will print")
 
 **Output:**
 
-```shell
+```mono
  Comments
  Will print
 ```
@@ -517,7 +517,7 @@ print(names)
 
 **Output:**
 
-```shell
+```mono
  ['Lucas', 'Rafael', 'Daniel']
 ```
 
@@ -531,7 +531,7 @@ print(names[2])
 
 **Output:**
 
-```shell
+```mono
  Daniel
 ```
 
@@ -547,7 +547,7 @@ print(names)
 
 **Output:**
 
-```shell
+```mono
  names = ['Lucas', 'Rafael', 'Daniel']
 ```
 
@@ -564,7 +564,7 @@ print(numbers[-1])
 
 **Output:**
 
-```shell
+```mono
  5
  5
 ```
@@ -582,7 +582,7 @@ print(animals)
 
 **Output:**
 
-```shell
+```mono
  ['Dog', 'Cat', 'Frog']
  ['Dog', 'Cat', 'Frog', 'Monkey']
 ```
@@ -603,7 +603,7 @@ print(letters)
 
 **Output:**
 
-```shell
+```mono
  ['A', 'C', 'D']
  ['A', 'B', 'C', 'D']
  ['A', 'B', 'C', 'D', 'E']
@@ -621,7 +621,7 @@ print(motorcycles)
 
 **Output:**
 
-```shell
+```mono
  Suzuki
  ['Honda', 'Yamaha']
 ```
@@ -639,7 +639,7 @@ print(fruits)
 
 **Output:**
 
-```shell
+```mono
  ['Mango', 'Banana', 'Orange', 'Grape']
  ['Banana', 'Grape', 'Mango', 'Orange']
 ```
@@ -657,7 +657,7 @@ print(sorted_veggies)
 
 **Output:**
 
-```shell
+```mono
  ['Tomato', 'Carrot', 'Onion', 'Broccoli']
  ['Broccoli', 'Carrot', 'Onion', 'Tomato']
 ```
@@ -675,7 +675,7 @@ print(veggies)
 
 **Output:**
 
-```shell
+```mono
  ['Tomato', 'Carrot', 'Onion', 'Broccoli']
  ['Broccoli', 'Onion', 'Carrot', 'Tomato']
 ```
@@ -691,7 +691,7 @@ print(len(veggies))
 
 **Output:**
 
-```shell
+```mono
  4
 ```
 
@@ -708,7 +708,7 @@ print(colors)
 
 **Output:**
 
-```shell
+```mono
  ['Red', 'Gold', 'Black']
  ['Red', 'Gold']
 ```
@@ -732,7 +732,7 @@ print(name)
 
 **Output:**
 
-```shell
+```mono
  ['Lucas', 'None', 'Someone']
  ['Lucas', 'None']
  Lucas
@@ -760,7 +760,7 @@ for animal in animals:
 
 **Output:**
 
-```shell
+```mono
  Dog
  Cat
  Bat
@@ -777,7 +777,7 @@ for index in range(0, 4):
 
 **Output:**
 
-```shell
+```mono
  Dog
  Cat
  Bat
@@ -794,7 +794,7 @@ print(numbers)
 
 **Output:**
 
-```shell
+```mono
  [1, 2, 3, 4, 5, 6, 7, 8, 9]
 ```
 
@@ -809,7 +809,7 @@ print(max(numbers))
 
 **Output:**
 
-```shell
+```mono
  9
 ```
 
@@ -824,7 +824,7 @@ print(min(numbers))
 
 **Output:**
 
-```shell
+```mono
  1
 ```
 
@@ -839,7 +839,7 @@ print(sum(numbers))
 
 **Output:**
 
-```shell
+```mono
  45
 ```
 
@@ -856,7 +856,7 @@ print(squares)
 
 **Output:**
 
-```shell
+```mono
  [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
 ```
 
@@ -870,7 +870,7 @@ print(squares)
 
 **Output:**
 
-```shell
+```mono
  [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
 ```
 
